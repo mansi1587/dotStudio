@@ -1,0 +1,116 @@
+body{
+
+}
+
+h1{
+    text-align: center;
+}
+span{
+   color: rgb(67, 67, 230);
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.childdiv1{
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+    background: url(photos/card1.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#ff004f);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    transition: height 0.6s;
+}
+.layer h3{
+    font-weight: 1000;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.childdiv1:hover .layer{
+    height: 100%;
+}
+.childdiv2{
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+    background: url(photos/card2.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+}
+.childdiv2:hover .layer{
+    height: 100%;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.childdiv3{
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+    background: url(photos/card3.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+}
+.childdiv3:hover .layer{
+    height: 100%;
+}
+
+.childdiv4{
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    
+    background: url(photos/card4.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+}
+.childdiv4:hover .layer{
+    height: 100%;
+}
+.clrred{
+    color: red;
+   
+}
+h2{
+    color: antiquewhite;
+    margin-top: 150px;
+    
+}
